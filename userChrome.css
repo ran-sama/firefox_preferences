@@ -3,8 +3,16 @@
 }
 
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+:root {
+  --tab-min-height_tnot: 32px;
+}
+
 :root[uidensity=compact] {
   --tab-min-height_tnot: 28px;
+}
+
+:root[uidensity=touch] {
+  --tab-min-height_tnot: 40px;
 }
 
 #TabsToolbar {
