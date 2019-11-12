@@ -1,52 +1,46 @@
 #editBookmarkPanelImage, #editBookmarkPanelFaviconContainer {
-    display: none !important;
+  display: none !important;
 }
 
-@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); 
-
-#print-preview-toolbar,
-#printedit-toolbar,
-#titlebar {
-  -moz-box-ordinal-group: 0 !important;
-}
-#navigator-toolbox #toolbar-menubar {
-  -moz-box-ordinal-group: 1 !important;
-}
-#navigator-toolbox #nav-bar {
-  -moz-box-ordinal-group: 2 !important;
-}
-#navigator-toolbox #PersonalToolbar {
-  -moz-box-ordinal-group: 3 !important;
-}
-#navigator-toolbox toolbar {
-  -moz-box-ordinal-group: 10 !important;
-}
-#navigator-toolbox #TabsToolbar {
-  -moz-box-ordinal-group: 100 !important;
-}
-#TabsToolbar[movingtab] {
-  padding-bottom: unset !important;
-}
-#TabsToolbar[movingtab] > .tabbrowser-tabs {
-  padding-bottom: unset !important;
-  margin-bottom: unset !important;
-}
-#TabsToolbar[movingtab] + #nav-bar {
-  margin-top: unset !important;
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+:root[uidensity=compact] {
+  --tab-min-height_tnot: 28px;
 }
 
-#PanelUI-menu-button {
-	display: none !important;
+#TabsToolbar {
+  position: absolute !important;
+  display: block !important;
+  bottom: 0 !important;
+  width: 100vw !important;
 }
-#PopupAutoCompleteRichResult > richlistbox >:-moz-any(richlistitem[actiontype="searchengine"]) {
-	display: none !important;
+
+#tabbrowser-tabs {
+  width: 100vw !important;
 }
-#PopupAutoCompleteRichResult {
-	max-width: 900px !important;
+
+:-moz-any(.tabs-newtab-button,#tabs-newtab-button) .toolbarbutton-icon {
+  padding: 0px !important;
+  margin: 0px !important;
+  width: 18px !important;
+  height: 18px !important;
 }
+
+#main-window:not([chromehidden*="toolbar"]) #navigator-toolbox {
+  padding-bottom: calc(0px + var(--tab-min-height_tnot)) !important;
+}
+
 #urlbar .urlbar-history-dropmarker {
-	display: none !important;
+  display: none !important;
 }
+
 #page-action-buttons #pageActionButton {
-	display: none !important;
+  display: none !important;
+}
+
+.tabbrowser-tabs, #main-window[windowtype="navigator:browser"] {
+  background-color: #201e1d !important;
+}
+
+.browserContainer {
+  background-color: #212121 !important;
 }
