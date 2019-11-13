@@ -52,3 +52,7 @@
 .browserContainer {
   background-color: #212121 !important;
 }
+
+#PanelUI-menu-button {
+  display: none !important;
+}
