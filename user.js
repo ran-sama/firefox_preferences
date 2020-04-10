@@ -47,7 +47,7 @@ user_pref("app.normandy.api_url", "");
 user_pref("app.normandy.enabled", false);
 user_pref("app.shield.optoutstudies.enabled", false);
 user_pref("browser.laterrun.enabled", false);
-user_pref("browser.startup.homepage_override.mstone", "68.0");
+//user_pref("browser.startup.homepage_override.mstone", "78.0");
 user_pref("experiments.activeExperiment", false);
 user_pref("experiments.enabled", false);
 user_pref("experiments.supported", false);
@@ -252,5 +252,5 @@ user_pref("browser.urlbar.update1.interventions", false);
 user_pref("browser.urlbar.update1.searchTips", false);
 user_pref("browser.urlbar.update1.view.stripHttps", false);
 
-//Make toolbar buttons accessible for keyboard
+// Make toolbar buttons accessible for keyboard
 //user_pref("browser.urlbar.update1.restrictTabAfterKeyboardFocus", false);
