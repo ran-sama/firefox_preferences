@@ -5,6 +5,7 @@
 //user_pref("browser.urlbar.autoFill", false);
 //user_pref("lightweightThemes.selectedThemeID", "firefox-compact-dark@mozilla.org");
 //user_pref("browser.cache.disk.parent_directory", "C:\\\\Users\\\\Censored\\\\AppData\\\\Local\\\\Temp\\\\firefox_cache");
+//user_pref("ui.systemUsesDarkTheme", 0);
 
 // Mitigate settings treating the user like a child
 user_pref("browser.search.update", false);
@@ -21,6 +22,9 @@ user_pref("security.dialog_enable_delay", 0);
 user_pref("security.family_safety.mode", 0);
 user_pref("sidebar.position_start", false);
 user_pref("toolkit.cosmeticAnimations.enabled", false);
+user_pref("security.secure_connection_icon_color_gray", false);
+user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
+user_pref("browser.disableResetPrompt", true);
 
 // Stop data leaks from HTML5 beacons, search suggestions, geolocation, webRTC and link prefetching
 user_pref("beacon.enabled", false);
@@ -33,6 +37,10 @@ user_pref("media.gmp-gmpopenh264.enabled", false);
 user_pref("network.http.speculative-parallel-limit", 0);
 user_pref("network.predictor.enabled", false);
 user_pref("network.prefetch-next", false);
+user_pref("dom.battery.enabled", false);
+user_pref("network.dns.disablePrefetch", true);
+user_pref("browser.urlbar.speculativeConnect.enabled", false);
+user_pref("network.trr.mode", 0);
 
 // Disable the forced welcome page, "studies/experiments" and captive portal scanner
 user_pref("app.normandy.api_url", "");
@@ -46,6 +54,9 @@ user_pref("experiments.supported", false);
 user_pref("media.peerconnection.enabled", false);
 user_pref("network.allow-experiments", false);
 user_pref("network.captive-portal-service.enabled", false);
+user_pref("experiments.manifest.uri", "");
+user_pref("extensions.shield-recipe-client.api_url", "");
+user_pref("extensions.shield-recipe-client.enabled", false);
 
 // Disable bad extensions
 user_pref("browser.onboarding.enabled", false);
@@ -70,6 +81,7 @@ user_pref("browser.tabs.crashReporting.sendReport", false);
 user_pref("datareporting.healthreport.uploadEnabled", false);
 user_pref("datareporting.policy.dataSubmissionEnabled", false);
 user_pref("datareporting.policy.dataSubmissionEnabled.v2", false);
+user_pref("datareporting.healthreport.service.enabled", false);
 
 // Disable the pingsender.exe and telemetry
 user_pref("browser.send_pings", false);
@@ -89,6 +101,7 @@ user_pref("toolkit.telemetry.reportingpolicy.firstRun", false);
 user_pref("toolkit.telemetry.shutdownPingSender.enabled", false);
 user_pref("toolkit.telemetry.unified", false);
 user_pref("toolkit.telemetry.updatePing.enabled", false);
+user_pref("toolkit.telemetry.rejected", true);
 
 // Don't leak history on screen when typing into URL bar
 user_pref("browser.urlbar.searchSuggestionsChoice", false);
@@ -121,6 +134,9 @@ user_pref("browser.safebrowsing.provider.google4.updateURL", "");
 user_pref("browser.safebrowsing.provider.mozilla.gethashURL", "");
 user_pref("browser.safebrowsing.provider.mozilla.updateURL", "");
 user_pref("browser.safebrowsing.reportPhishURL", "");
+user_pref("browser.safebrowsing.appRepURL", "");
+user_pref("browser.safebrowsing.blockedURIs.enabled", false);
+user_pref("browser.safebrowsing.enabled", false);
 
 // Clean history on exit, disable garbage tracking protection and header that increase the digital fingerprint
 user_pref("browser.contentblocking.category", "custom");
@@ -194,6 +210,9 @@ user_pref("browser.newtabpage.activity-stream.telemetry.ping.endpoint", "");
 user_pref("browser.newtabpage.activity-stream.telemetry.structuredIngestion", false);
 user_pref("browser.newtabpage.activity-stream.telemetry.structuredIngestion.endpoint", "");
 user_pref("browser.newtabpage.activity-stream.telemetry.ut.events", false);
+user_pref("browser.newtabpage.introShown", true);
+user_pref("browser.newtab.preload", false);
+user_pref("browser.newtabpage.enhanced", false);
 
 // Disables tooltips, privacy leaking thumbnails, screenshots are local without upload, coverage ping
 user_pref("browser.discovery.enabled", false);
@@ -225,3 +244,13 @@ user_pref("media.peerconnection.enabled", false);
 //user_pref("media.getusermedia.screensharing.enabled", false);
 //user_pref("permissions.default.camera", 2);
 //user_pref("permissions.default.microphone", 2);
+
+// Firefox 69-77 changes
+user_pref("browser.urlbar.openViewOnFocus", false);
+user_pref("browser.urlbar.update1", false);
+user_pref("browser.urlbar.update1.interventions", false);
+user_pref("browser.urlbar.update1.searchTips", false);
+user_pref("browser.urlbar.update1.view.stripHttps", false);
+
+//Make toolbar buttons accessible for keyboard
+//user_pref("browser.urlbar.update1.restrictTabAfterKeyboardFocus", false);
