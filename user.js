@@ -252,5 +252,8 @@ user_pref("browser.urlbar.update1.interventions", false);
 user_pref("browser.urlbar.update1.searchTips", false);
 user_pref("browser.urlbar.update1.view.stripHttps", false);
 
+// Disable the disgusting pingsender in Windows task scheduler
+user_pref("default-browser-agent.enabled", false);
+
 // Make toolbar buttons accessible for keyboard
 //user_pref("browser.urlbar.update1.restrictTabAfterKeyboardFocus", false);
