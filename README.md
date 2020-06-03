@@ -16,7 +16,7 @@ on Linux
 
 ## Fix Firefox Tabs on bottom and Megabar
 
-https://github.com/Aris-t2/CustomCSSforFx
+https://github.com/Aris-t2/CustomCSSforFx/releases/latest
 
 ## Useful Addons / Extensions
 
