@@ -1,0 +1,20 @@
+@import "./css/locationbar/megabar_expanding_breakout_disabled.css";
+@import "./css/tabs/tabs_below_navigation_toolbar_fx74.css";
+
+#editBookmarkPanelImage, #editBookmarkPanelFaviconContainer {
+  display: none !important;
+}
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#urlbar .urlbar-history-dropmarker {
+  display: none !important;
+}
+
+#page-action-buttons #pageActionButton {
+  display: none !important;
+}
+
+#PanelUI-menu-button {
+  display: none !important;
+}
