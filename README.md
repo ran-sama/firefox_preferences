@@ -68,7 +68,7 @@ Actively updated.
 
 If you ever want to clean your profile, all of your important data can be reduced down to these files:
 
-![alt text](https://raw.githubusercontent.com/ran-sama/firefox_preferences/master/profile_structure_1.png)
+![alt text](https://raw.githubusercontent.com/ran-sama/firefox-preferences/master/images/profile_structure_1.png)
 
 Directories:
 * chrome - stores Cascading Style Sheets that can alter the look of the UI and/or websites
@@ -89,7 +89,7 @@ Files:
 * favicons.sqlite - bookmark icons
 * places.sqlite - bookmark database
 
-![alt text](https://raw.githubusercontent.com/ran-sama/firefox_preferences/master/profile_structure_2.png)
+![alt text](https://raw.githubusercontent.com/ran-sama/firefox-preferences/master/images/profile_structure_2.png)
 
 * userChrome.css - changes the style of the browser's UI
 * userContent.css - changes styles of websites, like userthemes
