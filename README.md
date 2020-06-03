@@ -14,6 +14,10 @@ on Linux
 1) Close Firefox and move the user.js in your profile directory where the pref.js resides.
 2) On the next start Firefox parses the settings of the user.js and writes them into your prefs.js 
 
+## Fix Firefox Tabs on bottom and Megabar
+
+https://github.com/Aris-t2/CustomCSSforFx
+
 ## Useful Addons / Extensions
 
 #### 1. uBlock Origin ([link](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/))
