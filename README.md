@@ -42,7 +42,7 @@ Must have for EU users, can automatically click GDPR cookie warnings now on site
 Prevent tracking trough CDNs delivering JS. For experienced users since rare site breakage when loading JS with CORS requests.
 
 #### 8. Tampermonkey ([link](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/))
-Userscript manager with the best interface and editor. Use Greasemonkey if you want a FLOSS alternative.
+Userscript manager with the best interface and editor. Use Violentmonkey if you want a FLOSS alternative.
 
 #### 9. Default Bookmark Folder ([link](https://addons.mozilla.org/en-US/firefox/addon/default-bookmark-folder/))
 Fix for when Mozilla decided to store new bookmarks in a very unpopular directory.
