@@ -77,7 +77,7 @@ This add-on allows you to quickly generate a QR code offline with the URL of the
 #### 19. Close Tabs Shortcuts ([link](https://addons.mozilla.org/en-US/firefox/addon/close-tabs-shortcuts/))
 Adds keyboard shortcuts for closing all not active tabs, all to the left of the active one, all to the right.
 
-#### 21. British English Dictionary ([link](https://addons.mozilla.org/en-US/firefox/addon/british-english-dictionary-2/))
+#### 20. British English Dictionary ([link](https://addons.mozilla.org/en-US/firefox/addon/british-english-dictionary-2/))
 Actively updated.
 
 ## Structure of the profile directory
