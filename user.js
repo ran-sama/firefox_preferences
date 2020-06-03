@@ -257,3 +257,8 @@ user_pref("default-browser-agent.enabled", false);
 
 // Make toolbar buttons accessible for keyboard
 //user_pref("browser.urlbar.update1.restrictTabAfterKeyboardFocus", false);
+
+// Firefox 78 changes
+lockPref("signon.includeOtherSubdomainsInLookup", false);
+lockPref("media.videocontrols.picture-in-picture.enabled", false);
+lockPref("media.videocontrols.picture-in-picture.video-toggle.enabled", false);
