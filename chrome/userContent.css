@@ -1,0 +1,46 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain('10.0.0.1') {
+html {
+  font-size: 13px !important;
+}
+  html, input, textarea, keygen, select, button {
+  font-family: Arial, sans-serif !important;
+}
+main tr, main th, main td {
+  font-size: 0.98rem !important;
+}
+.list .item {
+  font-size: 98% !important;
+}
+.row div.net div.row {
+  font-size: 98% !important;
+}
+.row div.comfort div.row {
+  font-size: 98% !important;
+}
+}
+
+@-moz-document domain('10.0.0.27') {
+html {
+  font-size: 13px !important;
+}
+  html, input, textarea, keygen, select, button {
+  font-family: Arial, sans-serif !important;
+}
+main tr, main th, main td {
+  font-size: 0.98rem !important;
+}
+.list .item {
+  font-size: 98% !important;
+}
+.row div.net div.row {
+  font-size: 98% !important;
+}
+.row div.comfort div.row {
+  font-size: 98% !important;
+}
+}
+
+body {
+  -moz-user-select: inherit !important;
+}
