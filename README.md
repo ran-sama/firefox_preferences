@@ -65,7 +65,19 @@ Fix for when mozilla decided it was a good idea to make the user not see the con
 #### 15. mozlz4-edit ([link](https://addons.mozilla.org/en-US/firefox/addon/mozlz4-edit/))
 Fix for when Mozilla prevented users from editing JSON files by creating an almost-proprietary LZ4 implementation.
 
-#### 16. British English Dictionary ([link](https://addons.mozilla.org/en-US/firefox/addon/british-english-dictionary-2/))
+#### 16. Clickbait Remover for Youtube ([link](https://addons.mozilla.org/en-US/firefox/addon/clickbait-remover-for-youtube/))
+Replaces thumbnails and modifies titles of videos on Youtube.
+
+#### 17. Google Images Restored ([link](https://addons.mozilla.org/en-US/firefox/addon/google-images-restored/))
+Restores Google Images to how it appeared before August 6, 2019.
+
+#### 18. Offline QR Code Generator ([link](https://addons.mozilla.org/en-US/firefox/addon/offline-qr-code-generator/))
+This add-on allows you to quickly generate a QR code offline with the URL of the open tab or any (selected) other text.
+
+#### 19. Close Tabs Shortcuts ([link](https://addons.mozilla.org/en-US/firefox/addon/close-tabs-shortcuts/))
+Adds keyboard shortcuts for closing all not active tabs, all to the left of the active one, all to the right.
+
+#### 21. British English Dictionary ([link](https://addons.mozilla.org/en-US/firefox/addon/british-english-dictionary-2/))
 Actively updated.
 
 ## Structure of the profile directory
