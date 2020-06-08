@@ -259,6 +259,8 @@ user_pref("default-browser-agent.enabled", false);
 //user_pref("browser.urlbar.update1.restrictTabAfterKeyboardFocus", false);
 
 // Firefox 78 changes
-lockPref("signon.includeOtherSubdomainsInLookup", false);
-lockPref("media.videocontrols.picture-in-picture.enabled", false);
-lockPref("media.videocontrols.picture-in-picture.video-toggle.enabled", false);
+user_pref("signon.includeOtherSubdomainsInLookup", false);
+user_pref("media.videocontrols.picture-in-picture.enabled", false);
+user_pref("media.videocontrols.picture-in-picture.video-toggle.enabled", false);
+user_pref("extensions.fxmonitor.enabled", false);
+user_pref("browser.aboutConfig.showWarning", false);
