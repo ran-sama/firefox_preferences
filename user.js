@@ -264,3 +264,6 @@ user_pref("media.videocontrols.picture-in-picture.enabled", false);
 user_pref("media.videocontrols.picture-in-picture.video-toggle.enabled", false);
 user_pref("extensions.fxmonitor.enabled", false);
 user_pref("browser.aboutConfig.showWarning", false);
+
+// Disable intrusive lockwise random password generator
+user_pref("signon.generation.enabled;false", false);
