@@ -104,6 +104,7 @@ Files:
 * cert_override.txt - (optional) surpresses certificate errors for sites you manually added as trustworthy
 * favicons.sqlite - bookmark icons
 * places.sqlite - bookmark database
+* storage-sync.sqlite - Terrible addon devs store data here
 
 ![alt text](https://raw.githubusercontent.com/ran-sama/firefox-preferences/master/images/profile_structure_2.png)
 
