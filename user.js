@@ -267,6 +267,7 @@ user_pref("media.videocontrols.picture-in-picture.video-toggle.enabled", false);
 user_pref("extensions.fxmonitor.enabled", false);
 user_pref("browser.aboutConfig.showWarning", false);
 user_pref("messaging-system.rsexperimentloader.enabled", false);
+user_pref("browser.newtabpage.activity-stream.feeds.asrouterfeed", false);
 
 // Disable intrusive lockwise random password generator
 user_pref("signon.generation.enabled", false);
