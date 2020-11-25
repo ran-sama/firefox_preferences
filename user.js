@@ -260,7 +260,7 @@ user_pref("default-browser-agent.enabled", false);
 // Make toolbar buttons accessible for keyboard
 //user_pref("browser.urlbar.update1.restrictTabAfterKeyboardFocus", false);
 
-// Firefox 78 changes
+// Firefox 78++ changes
 user_pref("signon.includeOtherSubdomainsInLookup", false);
 user_pref("media.videocontrols.picture-in-picture.enabled", false);
 user_pref("media.videocontrols.picture-in-picture.video-toggle.enabled", false);
@@ -268,6 +268,10 @@ user_pref("extensions.fxmonitor.enabled", false);
 user_pref("browser.aboutConfig.showWarning", false);
 user_pref("messaging-system.rsexperimentloader.enabled", false);
 user_pref("browser.newtabpage.activity-stream.feeds.asrouterfeed", false);
+user_pref("browser.region.network.url", "");
+user_pref("browser.region.update.enabled", false);
+user_pref("geo.provider.network.url", "");
+user_pref("geo.provider.network.compare.url", "");
 
 // Disable intrusive lockwise random password generator
 user_pref("signon.generation.enabled", false);
