@@ -45,6 +45,7 @@ user_pref("network.trr.mode", 0);
 // Disable the forced welcome page, "studies/experiments" and captive portal scanner
 user_pref("app.normandy.api_url", "");
 user_pref("app.normandy.enabled", false);
+lockPref("app.normandy.optoutstudies.enabled", false);
 user_pref("app.shield.optoutstudies.enabled", false);
 user_pref("browser.laterrun.enabled", false);
 user_pref("browser.startup.homepage_override.mstone", "ignore");
