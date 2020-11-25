@@ -45,7 +45,7 @@ user_pref("network.trr.mode", 0);
 // Disable the forced welcome page, "studies/experiments" and captive portal scanner
 user_pref("app.normandy.api_url", "");
 user_pref("app.normandy.enabled", false);
-lockPref("app.normandy.optoutstudies.enabled", false);
+user_pref("app.normandy.optoutstudies.enabled", false);
 user_pref("app.shield.optoutstudies.enabled", false);
 user_pref("browser.laterrun.enabled", false);
 user_pref("browser.startup.homepage_override.mstone", "ignore");
@@ -266,6 +266,7 @@ user_pref("media.videocontrols.picture-in-picture.enabled", false);
 user_pref("media.videocontrols.picture-in-picture.video-toggle.enabled", false);
 user_pref("extensions.fxmonitor.enabled", false);
 user_pref("browser.aboutConfig.showWarning", false);
+user_pref("messaging-system.rsexperimentloader.enabled", false);
 
 // Disable intrusive lockwise random password generator
 user_pref("signon.generation.enabled", false);
