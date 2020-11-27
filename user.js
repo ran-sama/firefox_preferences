@@ -272,6 +272,7 @@ user_pref("browser.region.network.url", "");
 user_pref("browser.region.update.enabled", false);
 user_pref("geo.provider.network.url", "");
 user_pref("geo.provider.network.compare.url", "");
+user_pref("signon.management.page.breach-alerts.enabled", false);
 
 // Disable intrusive lockwise random password generator
 user_pref("signon.generation.enabled", false);
