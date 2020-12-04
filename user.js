@@ -6,6 +6,7 @@
 //user_pref("lightweightThemes.selectedThemeID", "firefox-compact-dark@mozilla.org");
 //user_pref("browser.cache.disk.parent_directory", "C:\\\\Users\\\\Censored\\\\AppData\\\\Local\\\\Temp\\\\firefox_cache");
 //user_pref("ui.systemUsesDarkTheme", 0);
+//user_pref("network.protocol-handler.external.mailto", false);
 
 // Mitigate settings treating the user like a child
 user_pref("browser.search.update", false);
