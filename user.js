@@ -105,11 +105,12 @@ user_pref("toolkit.telemetry.unified", false);
 user_pref("toolkit.telemetry.updatePing.enabled", false);
 user_pref("toolkit.telemetry.rejected", true);
 
-// Don't leak history on screen when typing into URL bar
+// Don't leak history on screen when typing into URL bar or taskbar right click
 user_pref("browser.urlbar.searchSuggestionsChoice", false);
 user_pref("browser.urlbar.suggest.history", false);
 user_pref("browser.urlbar.suggest.openpage", false);
 user_pref("browser.urlbar.suggest.searches", false);
+user_pref("browser.taskbar.lists.frequent.enabled", false);
 
 // No Google "safebrowsing" spying
 user_pref("browser.safebrowsing.downloads.enabled", false);
