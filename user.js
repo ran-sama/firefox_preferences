@@ -278,3 +278,6 @@ user_pref("signon.management.page.breach-alerts.enabled", false);
 
 // Disable intrusive lockwise random password generator
 user_pref("signon.generation.enabled", false);
+
+//Use classic print dialogue
+user_pref("print.tab_modal.enabled", false);
