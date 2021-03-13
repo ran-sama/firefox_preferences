@@ -282,3 +282,6 @@ user_pref("signon.generation.enabled", false);
 
 //Use classic print dialogue
 user_pref("print.tab_modal.enabled", false);
+
+//disable SpeechSynthesis Fingerprinting detecting non-english users
+user_pref("media.webspeech.synth.enabled", false);
