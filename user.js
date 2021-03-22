@@ -283,5 +283,8 @@ user_pref("signon.generation.enabled", false);
 //Use classic print dialogue
 user_pref("print.tab_modal.enabled", false);
 
-//disable SpeechSynthesis Fingerprinting detecting non-english users
+// Disable SpeechSynthesis Fingerprinting detecting non-english users
 user_pref("media.webspeech.synth.enabled", false);
+
+// Pressing Backspace will go back a page in the session history as it always has been 
+user_pref("browser.backspace_action", 0);
