@@ -1,6 +1,6 @@
 // Below are customized settings for myself, edit them to your liking before you enable
 //user_pref("browser.download.dir", "D:\\sorting");
-//user_pref("browser.startup.homepage", "https://www.google.cl/?hl=de&nfpr=1");
+//user_pref("browser.startup.homepage", "https://www.google.com/?hl=de&nfpr=1");
 //user_pref("browser.uidensity", 1);
 //user_pref("browser.urlbar.autoFill", false);
 //user_pref("lightweightThemes.selectedThemeID", "firefox-compact-dark@mozilla.org");
@@ -288,3 +288,6 @@ user_pref("media.webspeech.synth.enabled", false);
 
 // Pressing Backspace will go back a page in the session history as it always has been 
 user_pref("browser.backspace_action", 0);
+
+// Mozilla has decided to deprecate compact mode and hide it
+user_pref("browser.compactmode.show", true);
