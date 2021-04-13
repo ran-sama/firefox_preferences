@@ -291,3 +291,12 @@ user_pref("browser.backspace_action", 0);
 
 // Mozilla has decided to deprecate compact mode and hide it
 user_pref("browser.compactmode.show", true);
+
+// Disable the experimental proton re-design
+//user_pref("browser.proton.enabled", false);
+//user_pref("browser.proton.contextmenus.enabled", false);
+//user_pref("browser.proton.doorhangers.enabled", false);
+//user_pref("browser.proton.infobars.enabled", false);
+//user_pref("browser.proton.modals.enabled", false);
+//user_pref("browser.proton.places-tooltip.enabled", false);
+//user_pref("browser.proton.toolbar.version", 0);
