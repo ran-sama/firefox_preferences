@@ -8,6 +8,7 @@
 //user_pref("ui.systemUsesDarkTheme", 0);
 //user_pref("network.protocol-handler.external.mailto", false);
 //user_pref("browser.urlbar.unifiedcomplete", false);
+//user_pref("sidebar.position_start", false);
 
 // Mitigate settings treating the user like a child
 user_pref("browser.search.update", false);
@@ -22,7 +23,6 @@ user_pref("general.smoothScroll", false);
 user_pref("general.warnOnAboutConfig", false);
 user_pref("security.dialog_enable_delay", 0);
 user_pref("security.family_safety.mode", 0);
-user_pref("sidebar.position_start", false);
 user_pref("toolkit.cosmeticAnimations.enabled", false);
 user_pref("security.secure_connection_icon_color_gray", false);
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
